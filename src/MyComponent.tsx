@@ -1,6 +1,7 @@
+import React from 'react'
 import './MyComponent.css'
 
-function MyComponent() {
+const MyComponent: React.FC = () => {
   return (
     <div className="my-component">
       <h1 className="my-component__heading">Welcome to My First React App</h1>
